@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" href="{{ url_for('static', filename='chatbot.png') }}">    
+<link rel="stylesheet" href="./static/style.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <span class="close"><button type="button"><img src=".\static\images\cross.png"alt=""></button></span>  
+            <!--<span class="close">&times;</span>-->
+            <script>
+                var closebtns = document.getElementsByClassName("close");
+                var i;
+                
+                for (i = 0; i < closebtns.length; i++) {
+                  closebtns[i].addEventListener("click", function() {
+                    //this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);  
+                    this.parentElement.style.display = "none";
+                    //this.parentElement.style.visibility = "hidden";
+                  });
+                }
+            </script>
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src=".\static\images\logo.png" />
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Vertex Bot support</h4>
+                        <p class="chatbox__description--header">Please enter your name,emailid and continue chat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src=".\static\images\chat.png" /></button>
+            <!--<img src=".\static\images\cross.png" alt="close" class="close">   
+            <script>
+                  document.querySelector(".chatbox_button").addEventListener("click",function(){
+                    document.querySelector(".close").style.display = "none";
+                    });
+            </script>-->
+        </div>
+    </div>
+</div>
+
+    <script src="./static/app.js"></script>
+</body>
+</html>

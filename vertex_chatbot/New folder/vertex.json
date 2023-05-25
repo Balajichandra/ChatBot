@@ -1,0 +1,831 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hello"
+         ],
+         "responses":[
+            "Welcome to Vertex Power Solutions"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "Who are you?",
+            "Tell me about your company?",
+            "What are the products do you offer"
+          
+         ],
+         "responses":[
+            "Vertex Power Solutions  is a 25 years of rich experience in the field of Power conditioning Equipment is one of the leading                  manufacturers  of Servo Voltage Stabilisers , Isolation Transformers(IT), Uninterupted Power Supply(UPS) and Constant Voltage                Transformer(CVT)  in India. We offer both sales and services of these products."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ServoStabilizer",
+         "patterns":[
+            "What kind of servo stabilizers do you offer?",
+            "What variety of servo stabilizers do you provide?"
+         ],
+         "responses":[
+            "We provide 1.Single Phase Air/Oil Cooled servo stabilizer with rating of 1-20KVA  2.Three Phase Air Cooled servo stabilizer with ratings 3-15KVA  3.Three Phase Oil Cooled servo stabilizer with rating 3KVA-2MVA"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ServoStabilizerSalesorService",
+         "patterns":[
+          
+            "What help you provide?",
+            "What support is offered"
+         ],
+         "responses":[
+            "We offer sales and service of servo stabilizer"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"ServoStabilizerNeeds",
+         "patterns":[
+            "What is the are the various applications of servo stabilizer do you offer?"
+         ],
+         "responses":[
+            "We offer services to various industries like Textile,CNC machines,Medical Industries,Automobile Industries,Press,                            IT, Packing Industries,Printing Industries,Malls,Theaters,Elivators,Commerical office,Educational Instutions"   
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ServoStablizerQuerry",
+         "patterns":[
+            "I need to buy a servo stabilizer?",
+            "I want a servo stablizer?",
+            "How to buy a servo stabilizer?",
+            "" 
+         ],
+         "responses":[
+            "Kindly provide KVA rating : input voltage range : output voltage range : application for stabilizer:"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"servoStabilizerRequirement",
+         "patterns":[
+            "I dont know about rating or stablizer details?"
+         ],
+         "responses":[
+            "Dont worry our technical person will come in touch with you soon"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ServoStabilizerBrouchre",
+         "patterns":[
+            "Can you provide more details",
+            "Can you provide brouchre"
+         ],
+         "responses":[
+            "Refer this link for product brouchre: https://www.vertexpower.co.in/"
+             
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"IsolationTransformer",
+         "patterns":[
+            "What kind of Isolation Tranformer do you offer?",
+            "What variety of Isolation Transformer do you provide?" 
+         ],
+         "responses":[
+            "We provide 1.Single Phase Air Cooled Isolation Transformer with rating of 1-500KVA  2.Three Phase Air Cooled Isolation Transformer with ratings 1-500KVA "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"IsolationTransformerSalesorService",
+         "patterns":[
+            "Do you want to  sales or service of a Isolation Transformer?",
+            "What help you provide for Isolation Transformer?",
+            "What support is offered for Isolation Transformer"
+         ],
+         "responses":[
+            "We offer sales and service of Isolation Transformer"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"IsolationTransformerNeeds",
+         "patterns":[
+            "What is the are the various applications of Isolation Transformer do you offer?"
+         ],
+         "responses":[
+            "We offer services to various industries like Medical, Analytical, UPS (bypass), Printing, CNC machines, Telecom (GSM towers),Residential, Food processing, Offices/Commercial Complexes"   
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"IsolationTransformerQuerry",
+         "patterns":[
+            "I need to buy a Isolation Transformer?",
+            "I want a Isoaltion Transformer?",
+            "How to buy a Isolation Transformer?",
+            "" 
+         ],
+         "responses":[
+            "Kindly provide KVA rating: input voltage range: output voltage range: application for Isolation Transformer:"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"IsolationTransformerRequirement",
+         "patterns":[
+            "I dont know about rating or stablizer details?",
+            "Can you suggest me for Isolation Transformer"
+         ],
+         "responses":[
+            "Dont worry our technical person will come in touch with you soon"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"IsolationTransformerBrouchre",
+         "patterns":[
+            "Can you provide more details",
+            "Can you provide brouchre"
+         ],
+         "responses":[
+            "Refer this link for product brouchre:  https://www.vertexpower.co.in/"
+             
+         ],
+         "context":[
+            ""
+         ]
+      },   
+      {
+         "tag":"UPS",
+         "patterns":[
+            "What kind of UPS do you offer?",
+            "What variety of UPS do you provide?" 
+         ],
+         "responses":[
+            "We provide 1.Single Phase UPS with rating of 1-100KVA  2.Three Phase Air UPS with ratings 1-100KVA "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"UPSSalesorService",
+         "patterns":[
+            "Do you want to  sales or service of a UPS?",
+            "What help you provide for UPS?",
+            "What support is offered for UPS"
+         ],
+         "responses":[
+            "We offer sales and service of UPS"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"UPSNeeds",
+         "patterns":[
+            "What is the are the various applications of UPS do you offer?"
+         ],
+         "responses":[
+            "We offer services to various industries like Data Centres, Banks & Insurance, Hospitals & labs, Telecom, CNC machines,Office & Commercial establishments, Packaging, Printing, Residential, etc"   
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"UPSQuerry",
+         "patterns":[
+            "I need to buy a UPS?",
+            "I want a UPS?",
+            "How to buy a UPS?" 
+         ],
+         "responses":[
+            "Kindly provide KVA rating: input voltage range:  output voltage range:  application for UPS:  Backup time required:"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"UPSRequirement",
+         "patterns":[
+            "I dont know about UPS details?",
+            "Can you suggest me for UPS"
+         ],
+         "responses":[
+            "Dont worry our technical person will come in touch with you soon"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"UPSBrouchre",
+         "patterns":[
+            "Can you provide more details",
+            "Can you provide brouchre"
+         ],
+         "responses":[
+            "Refer this link for product brouchre:  https://www.vertexpower.co.in/"
+             
+         ],
+         "context":[
+            ""
+         ]
+      },    
+      {
+         "tag":"CVT",
+         "patterns":[
+            "What kind of CVT do you offer?",
+            "What variety of CVT do you provide?" 
+         ],
+         "responses":[
+            "We provide 1.Single Phase Air Cooled with rating of 500-5000VA "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"CVTSalesorService",
+         "patterns":[
+            "Do you want to  sales or service of a CVT?",
+            "What help you provide for CVT?",
+            "What support is offered for CVT"
+         ],
+         "responses":[
+            "We offer sales and service of CVT"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"CVTNeeds",
+         "patterns":[
+            "What is the are the various applications of CVT do you offer?"
+         ],
+         "responses":[
+            "We offer services to various industries like Computers, Data Processing Equipment, Audio/Video Equipment, Photo Processing                  Equipment, Bio-Medical Equipment, Telex, Fax, Cash Registers, Electronic Type Writers, Control Panels, Etc,"   
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"CVTQuerry",
+         "patterns":[
+            "I need to buy a CVT?",
+            "I want a CVT?",
+            "How to buy a CVT?"
+         ],
+         "responses":[
+            "Kindly provide KVA rating:  input voltage range:  output voltage range:  application for CVT:"
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"CVTRequirement",
+         "patterns":[
+            "I dont know about CVT details?",
+            "Can you suggest me for CVT"
+         ],
+         "responses":[
+            "Dont worry our technical person will come in touch with you soon"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"CVTBrouchre",
+         "patterns":[
+            "Can you provide more details",
+            "Can you provide brouchre"
+         ],
+         "responses":[
+            "Refer this link for product brouchre: https://www.vertexpower.co.in/"
+             
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"AMC",
+         "patterns":[
+            "Do you offer AMC for products?",
+            "AMC details"
+         ],
+         "responses":[
+            "Yes we offer AMC to products like servostabilizer,ups,cvt,isolation transformer. These services are done after review of product once "
+             
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"FAQServoStabilizer",
+         "patterns":[
+            "What is ServoStabilizer?",
+            "Tell me about ServoStabilizer",
+            "Explain about ServoStabilizer"
+         ],
+         "responses":[
+            "The principle of operation of Servo Stabilizer comprises comparing the output voltage through the sensing circuit, a reference voltage source. The control circuit operates the   motor whenever the output voltage falls or rises beyond a preset voltage. The secondary winding of the buck-boost transformer is in series with the main supply. The primary winding is connected to the motorized control auto-transformer (Variac). Output voltage   variation due to any reason makes the motor to move in proper direction, so as to feed the primary of the buck-boost transformer a proper voltage which in turn produces voltage in the secondary to keep the output to set level with tolerance of ±1%"
+             
+         ],
+         "context":[
+            ""
+         ]
+      }, 
+      {
+         "tag":"FAQVoltageStabilizer",
+         "patterns":[
+            "What is a Static Voltage Stabilizer?",
+            "Tell me about Static Voltage Stabilizer",
+            "Explain about Static Voltage Stabilizer",
+            "What is a Static Voltage Regulator?",
+            "Tell me about Static Voltage Regulator",
+            "Explain about Static Voltage Regulator"
+         ],
+         "responses":[
+            "The Static Voltage Stabilizer do not use any moving parts like Servo Motor, instead they use semiconductor devices like thyristor / IGBT for changing the transformer taps to regulate the voltage. The speed of correction is higher in such type of stabilizer"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQRelayStabilizer",
+         "patterns":[
+            "What is a Relay type Stabilizer?",
+            "Tell me about Relay type Stabilizer",
+            "Explain about Relay type Stabilizer",
+            "What is a Relay based Regulator?",
+            "Tell me about Relay based Regulator",
+            "Explain about Relay based Regulator"
+         ],
+         "responses":[
+            "These types of stabilizer use relays for changing the transformer taps with input sensing method, to regulate the voltage. They have less accuracy and are basically used for domestic loads / non-critical loads"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQConstantVoltageTransformer",
+         "patterns":[
+            "What is a Constant Voltage Transformer?",
+            "Tell me about Constant Voltage Transformer",
+            "Explain about Constant Voltage Transformer"
+         ],
+         "responses":[
+            "Constant Voltage Transformer (CVT) or Ferroresonant Transformer (Ferro)is a non-linear transformer, which passively provides a regulated voltage output through an electromagnetic phenomenon called ferroresonance (where the term ferroresonant transformer was derived). Ferroresonance is associated with the behavior of iron cores while operating near a point of magnetic saturation, wherein the core is so strongly magnetized that further variation in the input voltage results in little or no increase in magnetic flux. Basically, the ferroresonant action is a flux limiter rather than a voltage regulator. Nonetheless, with a fairly constant supply frequency, the CVT can maintain an almost constant output voltage even as the input voltage varies widely"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQIsolationTransformer",
+         "patterns":[
+            "What is a Isolation Transformer?",
+            "Tell me about Isolation Transformer",
+            "Explain about Isolation Transformer"
+         ],
+         "responses":[
+            "An isolation transformer is a transformer, often with symmetrical winding's, which is used to decouple two circuits. An isolation transformer allows an AC signal or power to be taken from one device and fed into another without electrically connecting the two circuits. Isolation transformers block transmission of DC signals from one circuit to the other, but allow AC signals to pass. They also block interference caused by ground loops. Isolation transformers with electrostatic shields are used for power supplies for sensitive equipment such as computers, Lab Instruments, CNC Machines, Medical Equipments, etc"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQK-RatedTransformer",
+         "patterns":[
+            "What is a  K-Rated Transformer?",
+            "Tell me about  K-Rated Transformer",
+            "Explain about  K-Rated Transformer"
+         ],
+         "responses":[
+            "K-factor is a weighting of the harmonic load currents according to their effects on transformer heating.  A K-factor of 1.0 indicates a linear load (no harmonics). The higher the K-factor, the greater the harmonic heating effects. The K-Factor is used by transformer manufacturers and their customers to adjust the load rating as a function of the harmonic currents caused by the load(s). Transformers are offered with different K-Factors (K-4, K-7, K-13 & K-20) standard. The K-Factor is a means of rating the transformer's ability to withstand the heating effects of harmonic and fundamental current flowing in the transformer. Utilization of the proper K-Factor is absolutely essential in every installation. If too low a K-Factor is used, it can result in failure, fire, overheating, and wave form distortion"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQPowerSurge",
+         "patterns":[
+            "What is a  PowerSurge?",
+            "Tell me about  PowerSurge",
+            "Explain about  PowerSurge"
+         ],
+         "responses":[
+            "A power surge takes place when the voltage is 110% or more above normal. The most common cause is heavy electrical equipment being turned off. Under these conditions, computer systems and other high tech equipment can experience flickering lights, equipment shutoff, errors or memory loss."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQPowerSurge",
+         "patterns":[
+            "What is a  PowerSurge?",
+            "Tell me about  PowerSurge",
+            "Explain about  PowerSurge"
+         ],
+         "responses":[
+            "A power surge takes place when the voltage is 110% or more above normal. The most common cause is heavy electrical equipment being turned off. Under these conditions, computer systems and other high tech equipment can experience flickering lights, equipment shutoff, errors or memory loss."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQHighVoltageSpike",
+         "patterns":[
+            "What is a   High Voltage Spike?",
+            "Tell me about   High Voltage Spike",
+            "Explain about   High Voltage Spike"
+         ],
+         "responses":[
+            "High-voltage spikes occur when there is a sudden voltage peak of up to 6,000 volts. These spikes are usually the result of nearby lightning strikes, but there can be other causes as well. The effects on vulnerable electronic systems can include loss of data and burned circuit boards"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQTransients",
+         "patterns":[
+            "What is a Transients?",
+            "Tell me about Transients",
+            "Explain about Transients"
+         ],
+         "responses":[
+            "Electrical transients are momentary bursts of energy induced upon power, data, or communication lines. They are characterized by extremely high voltages that drive tremendous amounts of current into an electrical circuit for a few millionths, up to a few thousandths, of a second. Large transients on the power system originating outside of a facility are best initially diverted at the service entrance of a facility. Transients generated within the premises are best diverted by SPDs located close to the internal source of the transients or close to the electronic load equipment if this is not possible. Best results are obtained if both locations are protected"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQFrequencyVariation",
+         "patterns":[
+            "What is Frequency Variation?",
+            "Tell me about Frequency Variation",
+            "Explain about Frequency Variation"
+         ],
+         "responses":[
+            " A frequency variation involves a change in frequency from the normally stable utility frequency of 50 or 60 Hz, depending on your geographic location. This may be caused by erratic operation of emergency generators or unstable frequency power sources. For sensitive equipment, the results can be data loss, program failure, equipment lock-up or complete shut down"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQElectricalLineNoise",
+         "patterns":[
+            "What is Electrical Line Noise?",
+            "Tell me about Electrical Line Noise",
+            "Explain about Electrical Line Noise"
+         ],
+         "responses":[
+            "Electrical line noise is defined as Radio Frequency Interference (RFI) and Electromagnetic Interference (EMI) that causes unwanted effects in the circuits of computer systems. Sources of the problems include motors, relays, motor control devices, broadcast transmissions, microwave radiation, and distant electrical storms. RFI, EMI and other frequency problems can cause equipment to lock-up, and data error or loss"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQBrownouts",
+         "patterns":[
+            "What are Brownouts?",
+            "Tell me about Brownouts",
+            "Explain about Brownouts"
+         ],
+         "responses":[
+            "A brownout is a steady lower voltage state. An example of a brownout is what happens during peak electrical demand in the summer, when utilities can’t always meet the requirements and must lower the voltage to limit maximum power. When this happens, systems can experience glitches, data loss and equipment failure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQBlackouts",
+         "patterns":[
+            "What is  Blackouts?",
+            "Tell me about  Blackouts",
+            "Explain about  Blackouts"
+         ],
+         "responses":[
+            "A power failure or blackout is a zero-voltage condition that lasts for more than two cycles. It may be caused by tripping a circuit breaker, power distribution failure or utility power failure. A blackout can cause data loss or corruption and equipment damage"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQPowerSags",
+         "patterns":[
+            "What is  Power Sags?",
+            "Tell me about  Power Sags",
+            "Explain about  Power Sags"
+         ],
+         "responses":[
+            "Sag is a reduction of AC Voltage at a given frequency for the duration of 0.5 cycles to 1 minute's time.Sags are usually caused by system faults, and are also often the result of switching loads with heavy start up current.Common causes for sags include starting large loads like large Air Conditioning Unit, starting of large motors, etc. Sags coming from the utility have a variety of causes including lightning, animal and human activity, and normal and abnormal utility equipment operation. Sags generated on the transmission or distribution system can travel hundreds of miles thereby affecting thousands of customers during a single event "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQPowerSags",
+         "patterns":[
+            "What is  Under voltage?",
+            "Tell me about Under voltage",
+            "Explain about Under voltage"
+         ],
+         "responses":[
+            "Under voltages are the result of long-term problems that create sags.The term brownout has been commonly used to describe this problem, and has now been superseded by the term ‘under voltage’. Under voltage creates over heating in motors, and can lead to equipment failures"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQUnderVoltage",
+         "patterns":[
+            "What is  Under voltage?",
+            "Tell me about Under voltage",
+            "Explain about Under voltage"
+         ],
+         "responses":[
+            "Under voltages are the result of long-term problems that create sags.The term brownout has been commonly used to describe this problem, and has now been superseded by the term ‘under voltage’. Under voltage creates over heating in motors, and can lead to equipment failures"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQHarmonics",
+         "patterns":[
+            "What is  harmonics?",
+            "Tell me about harmonics",
+            "Explain about harmonics"
+         ],
+         "responses":[
+            "Harmonics are currents or voltages with frequencies that are integer multiples of the fundamental power frequency being 50 or 60Hz (50Hz for European power and 60Hz for American power). For example, if the fundamental power frequency is 50 Hz, then the 2nd harmonic is 100 Hz, the 3rd is 150 Hz, etc"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQHarmonicsCause",
+         "patterns":[
+            "What are   cause harmonics?",
+            "Tell me about cause harmonics",
+            "Explain about cause harmonics"
+         ],
+         "responses":[
+            "Harmonics are caused by and are the by-product of such Non-linear loads and any other equipment powered by switched-mode power supply (SMPS)."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQLinearLoads",
+         "patterns":[
+            "What are linear Loads?",
+            "Tell me about linear Loads",
+            "Explain about linear Loads"
+         ],
+         "responses":[
+            "For many years, electricity was predominantly used to power motors, lights and heating devices.These early technologies are linear loads, meaning that the current rises and falls in proportion to the voltage wave.As such, they have little effect on the 50-Hertz base sine waveform"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQNonLinearLoad",
+         "patterns":[
+            "What are non-linear Loads?",
+            "Tell me about non-linear Loads",
+            "Explain about non-linear Loads"
+         ],
+         "responses":[
+            "In recent years many new technologies that distort the waveform have emerged. Because their current flow is not directly proportional to the voltage, these new technologies are called non-linear loads.Non-linear loads include Variable Speed Drives, UPS, PLC's, Computers, Printers, Solid State Rectifiers, Induction Heating Equipment, Sodium and Mercury Vapour Lighting, Arc Furnaces, Welding equipment, AC/DC Converters, Electronic Ballasts, etc"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQHarmonicProblem",
+         "patterns":[
+            "What problems do harmonics create",
+            "Tell me about problems do harmonics create",
+            "Explain about problems do harmonics create"
+         ],
+         "responses":[
+            "Harmonic Distortion often causes the following symptoms: a.Malfunctioning of microprocessor-based equipment, b.Overheating in neutral conductors, transformers or induction motors, c.Deterioration or failure of power factor correction capacitors, d.Erratic operation of breakers & relayse.Pronounced magnetic fields near transformers & switchgear"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQOnlineUps",
+         "patterns":[
+            "What is On-line Double Conversion UPS",
+            "Tell me about On-line Double Conversion UPS",
+            "Explain about On-line Double Conversion UPS"
+         ],
+         "responses":[
+            "The Online UPS is a type of UPS that supplies power to the AC load through the Rectifier and Inverter Combo in normal operation and uses an inverter to supply AC power during a power failure. Therefore, the output power supply always stays ON and there is no need for switching. Hence, there is no time delay in switching between its sources. There is no interruption in the case of power failure even for a nanosecond"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQOfflineUps",
+         "patterns":[
+            "What is Offline UPS",
+            "Tell me about Offline UPS",
+            "Explain about Offline UPS"
+         ],
+         "responses":[
+            "Offline UPS, also called standby UPS or battery backup, is a cost-effective choice. The offline UPS is a type of UPS that directly supplies the power to the AC load from the AC mains in normal operation and uses an inverter to power the AC load from the DC battery. Since there are two separate lines of supplies, the output supply must be switched between the two sources.The switching speed of an Offline UPS is around  6 - 8ms which is enough to keep a computer from shutting down, but not fast enough to keep a smooth operation of sensitive equipment.In an off-line UPS system, the load is powered directly by the input power, and the backup power circuitry will only be invoked when the utility power fail"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQLineInteractiveUPS",
+         "patterns":[
+            "What is Line Interactive UPS",
+            "Tell me about Line Interactive UPS",
+            "Explain about Line Interactive UPS"
+         ],
+         "responses":[
+            "Line-interactive UPS systems provide both power conditioning and battery backup. This technology is particularly effective in areas where outages are rare, but power fluctuations are common. Line-interactive UPS systems support a wide range of input voltage fluctuations before switching to battery backup. The switching speed of an Offline UPS is around  4 - 6ms which is enough to keep a computer from shutting down, but not fast enough to keep a smooth operation of sensitive equipment. Beyond battery backup, line-interactive UPS provides far better control over power fluctuations then offline systems"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQElectricalGround",
+         "patterns":[
+            "What is Electrical Ground",
+            "Tell me about Electrical Ground",
+            "Explain about Electrical Ground"
+         ],
+         "responses":[
+            "A Ground represents an electrical path, normally designed to carry fault current when an insulation breakdown occurs within electrical equipment.  The earth is connected to the body of equipment that doesn’t carry current in normal conditions but in case of any insulation failure, is supposed to carry some minor current"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQElectricalNeutral",
+         "patterns":[
+            "What is Electrical Neutral?",
+            "Tell me about Electrical Neutral",
+            "Explain about Electrical Neutral"
+         ],
+         "responses":[
+            "Neutral is the return path for an AC circuit that carries current in normal condition. This current could be primarily because of the phase current imbalance. The magnitude of this current is a fraction of phase current or in a few cases even double of the phase currents. It can be stated that Neutral can be grounded, but Ground is not neutral"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"FAQPowerConditioner",
+         "patterns":[
+            "What is Power Conditioner?",
+            "Tell me about Power Conditioner",
+            "Explain about Power Conditioner"
+         ],
+         "responses":[
+            "A power conditioner is a device used to improve the power quality that is delivered to equipment. Generally, it's a voltage regulator which also provides protection from electrical noises, transients, et"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Support",
+         "patterns":[
+            "Do you offer any service to other company products?"
+         ],
+         "responses":[
+            "Yes we do service for other company products but for that please mention details like Product Type:  Product Make: Rating (in kVA): Sl.No.: Problem Faced:  Contact person name:  Mobile number:"    
+         ],
+         "context":[
+            ""
+         ]
+      } 
+   ]
+}
